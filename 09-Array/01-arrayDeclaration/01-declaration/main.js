@@ -1,0 +1,1 @@
+let friendName = ['Bic', 'May', 'Leelee','First','Boss'];
