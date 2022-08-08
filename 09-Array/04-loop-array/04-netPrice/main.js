@@ -30,6 +30,4 @@ function calSummary(salesArr) {
     return sumArr;
 }
 
-console.log(calSummary);
-
-// F12 : Don't work
+console.log(calSummary(sales));

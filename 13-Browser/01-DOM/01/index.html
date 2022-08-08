@@ -6,6 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
-  <script src="main.js"></script>
+  <body>
+      <div>Users:</div>
+    <ul>
+      <li>John</li>
+      <li>Pete</li>
+    </ul>
+  </body>
+  <script>
+    let div = document.querySelector('body div:first-child');
+    console.log(div.innerHTML);
+    let ul = document.querySelector('ul');
+    console.log(ul.innerHTML);
+    let li1 = document.querySelector('ul :first-child');
+    console.log(li1.innerHTML);
+    let li2 = document.querySelector('ul :last-child');
+    console.log(li2.innerHTML);
+     
+  </script>
 </html>

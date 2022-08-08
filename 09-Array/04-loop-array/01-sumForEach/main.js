@@ -1,11 +1,11 @@
-// const array = [29, 17, 13, 47, 23, 31];
+const array = [29, 17, 13, 47, 23, 31];
 
-// let sum=0;
-// function multiple(item,index,arr){
-//     sum += +item;
-// }
-// array.forEach(multiple);
-// console.log(sum)
+let sum=0;
+function multiple(item,index,arr){
+    sum += +item;
+}
+array.forEach(multiple);
+console.log(sum);
 
 
 // ----------------Sol #2 --------------
@@ -28,10 +28,8 @@
 
 
 // ------------------Sol #4 --------------
-const array = [29, 17, 13, 47, 23, 31];
-let sum = 0;
-for(let item of array){
+// const array = [29, 17, 13, 47, 23, 31];
+// let sum = 0;
+// for(let item of array){
 
-}
-
-// ------------------Sol #AROOW --------------
+// }

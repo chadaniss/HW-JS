@@ -9,10 +9,12 @@ const notebook = {
 
   const cloneNotebook = {}
 
-//   for (let key in notebook){
-//     let cloneNotebook[key] = notebook[key]
-//   }
+// วิธี for ... in loop
+  // for (let key in notebook){
+  //   let cloneNotebook[key] = notebook[key]
+  // }
 
+// วิธี Object.assign
   Object.assign(cloneNotebook,notebook);
   console.log(notebook)
   console.log(cloneNotebook)

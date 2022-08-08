@@ -6,4 +6,4 @@ function makeUser() {
   };
 }
 let user = makeUser();
-console.log(user.ref.name); // *user.ref == this == window then this.name ..
+console.log(user.ref.name); // *user.ref = this = window, So this.name will = Joe

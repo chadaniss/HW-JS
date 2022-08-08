@@ -5,4 +5,4 @@ animals.push('Giraffe', 'Snake');
 animals.shift();
 animals.pop();
 animals.shift();
-console.log(animals);
+console.log(animals); // ['Cat', 'Rat', 'Fish', 'Giraffe']
