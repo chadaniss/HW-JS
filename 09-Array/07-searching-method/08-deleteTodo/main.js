@@ -13,7 +13,5 @@ function deleteTask(id){
     }
 }
 
-deleteTask(2)
-console.log(tasks)
-deleteTask(3)
+deleteTask(1)
 console.log(tasks)

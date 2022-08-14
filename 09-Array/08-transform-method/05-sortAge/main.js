@@ -9,4 +9,4 @@ const arr = [
 //   Less => More
 // a > b will swap : (a-b > 0)
 
-arr.sort((a,b) => a.age - b.age)
+console.log(arr.sort((a,b) => (a.age - b.age)))

@@ -12,4 +12,5 @@ const inventory = [
 
 
 // ------------ #2--------------------
-  let foundObj = inventory.find()
+let foundObj = inventory.find(item => item.name === 'cherries')
+console.log(foundObj)

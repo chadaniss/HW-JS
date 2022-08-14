@@ -17,6 +17,15 @@
     </div>
   </body>
   <script>
-    
+    let accSelect = document.querySelector('ul :last-child');
+    console.log(accSelect.innerHTML);
+
+    let accSelectAll = document.querySelectorAll('#3');
+    for (let item of accSelectAll) {
+      console.log(item.innerHTML);
+    }
+    let accEleById = document.getElementById('3');
+
+    let accEleByTagName = document.getElementsByTagName('li');
   </script>
 </html>

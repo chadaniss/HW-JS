@@ -36,24 +36,29 @@
 
 // const array = [1, -3, 2, 8, -4, 5];
 // // ค่าที่เป็นเลขบวก
+// const arrPositive = array.filter((item) => item > 0)
+// console.log(arrPositive);
 
 // ------------------------------ข้อ 6------------------------------------------
 
 // const array = [1, 3, 4, 5, 6, 7, 8];
 // // ค่าที่หาร 3 ลงตัว
+// const resultArr = array.filter(item => item%3 === 0)
+// console.log(resultArr)
 
 // ------------------------------ข้อ 7------------------------------------------
 
 // const array = ['Elephant', 'Ant', 'Cat', 'Eagle', 'Zebra'];
 // // ค่าที่ขึ้นต้นด้วยตัว E
-// const resultArr = array.filter..
+// const resultArr = array.filter(item => item.slice(0,1) === 'E')
+// console.log(resultArr)
 
 // ------------------------------ข้อ 8------------------------------------------
 
 // const array = ['APPLE', 'oRanGE', 'PEACH', 'PaPAYA'];
 // // ค่าที่เป็นตัวพิมพ์ใหญ่ทั้งหมด
-// const resultArr = 
-
+// const resultArr = array.filter(item => item === item.toLocaleUpperCase())
+// console.log(resultArr)
 
 // ------------------------------ข้อ 9------------------------------------------
 
@@ -71,7 +76,9 @@
 //     { name: 'Ann', age: 16 },
 //     { name: 'Paul', age: 24 }
 //   ];
-//   อายุไม่น้อยกว่า 18 
+//   // อายุไม่น้อยกว่า 18 
+//   const resultArr = array.filter(item => item.age >= 18)
+//   console.log(resultArr)
 
 // ------------------------------ข้อ 11------------------------------------------
 
@@ -83,6 +90,8 @@
 //     { id: 5, name: 'Sprite' }
 //   ];
 //   // id ไม่เท่ากับ 4
+//   const resultArr = array.filter(item => item.id != 4)
+//   console.log(resultArr)
   
 // ------------------------------ข้อ 12------------------------------------------
 
@@ -96,6 +105,8 @@
   // เกิดเดือน 6
   const resultArr = array.filter((item) => {
     let month = item.birth.slice(5,7)
-    if(month === '06')
+    if(month === '06'){
+      return true;
+    }
   })
   console.log(resultArr)

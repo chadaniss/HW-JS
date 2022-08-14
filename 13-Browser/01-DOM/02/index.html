@@ -19,5 +19,14 @@
   <script>
     let h2 = document.querySelector('div :first-child')
     console.log(h2.innerHTML)
+
+    let h2BySelectAll = document.querySelectorAll('.title-1')
+    for (let itemH2 of h2BySelectAll){
+      console.log(itemH2.innerHTML)
+    }
+
+    let h2ByClassName = document.getElementsByClassName("title-1");
+    
+    let h2ByTagName = document.getElementsByTagName("h2");
   </script>
 </html>

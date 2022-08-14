@@ -9,16 +9,22 @@ const employees = {
     sarah: { salary: 2200, address: { district: 'Sriraja', province: 'Chonburi' } }
   };
 
-let result = {};
 
 function employeesDetail(input) {
     for(let key in employees){
         if(input == key){
-            console.log(`Name: ${key}, salary: ${key.salary},address: ${key.address?.district}, ${key.address?.province}`);
-        } else{
-            console.log('Not Found');
-        }
+            console.log(`Name: ${key}, salary: ${employees[key].salary},address: ${employees[key].address?.district}, ${employees[key].address?.province}`);
+            return;
+        } 
+    }
+    if(input !== undefined) {
+        console.log('Not Found');
+        
     }
 } 
 
 employeesDetail('john');
+employeesDetail('peter');
+employeesDetail('mike');
+employeesDetail('sarah');
+employeesDetail('jane');

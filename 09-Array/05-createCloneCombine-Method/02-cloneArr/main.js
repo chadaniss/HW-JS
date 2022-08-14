@@ -6,4 +6,5 @@ function clone(arr) {
 }
 
 const newArr = clone(original);
+console.log(newArr);
 

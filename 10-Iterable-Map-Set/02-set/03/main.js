@@ -8,4 +8,4 @@ function unique(array){
     return newArray
 }
 
-unique(values) 
+console.log(unique(values)) 
