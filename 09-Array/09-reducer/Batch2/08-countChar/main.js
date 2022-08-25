@@ -6,22 +6,21 @@ step 1 : lowercase
 step 2 : split by ""
 */
 
-let lowercase = str.toLowerCase()
-const arrChar = lowercase.split("")
+let lowercase = str.toLowerCase();
+const arrChar = lowercase.split('');
 
-const result = arrChar.reduce(function(acc,char){
-    if(char.trim() !== ""){
-        // let foundValue = acc[char]
-        // if(foundValue){
-        //     acc[char] += 1
-        // } else {
-        //     acc[char] = 1
-        // }
-        
-        acc[char] = acc[char] ? acc[char] + 1 : 1
-    }
+const result = arrChar.reduce(function (acc, char) {
+  if (char.trim() !== '') {
+    // let foundValue = acc[char]
+    // if(foundValue){
+    //     acc[char] += 1
+    // } else {
+    //     acc[char] = 1
+    // }
 
-    return acc
+    acc[char] = acc[char] ? acc[char] + 1 : 1;
+  }
 
-},{})
-result //?
+  return acc;
+}, {});
+result; //?
